@@ -109,7 +109,7 @@ body {
 
 .my_skills {
   display: flex;
-  height: 380px;
+  height: 400px;
   width: 1120px;
 }
 
@@ -139,13 +139,27 @@ body {
 .my_skills_skill {
   margin: 25px 0 0 0;
   width: 310px;
+  height:350px;
   border-radius: 10px;
   background-color: #f8f8f8;
   padding: 0px 20px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-.my_skills_skill:hover .my_skills_skill_img {
-  opacity: 1;
+.my_skills_skill:hover{
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .my_skills_skill:hover .my_skills_skill_hardicon {
@@ -187,26 +201,10 @@ body {
 }
 
 .my_skills_skill img {
-  -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     padding: 10px 10px;
 }
 
-.my_skills_skill img:hover{
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-     padding: 10px 10px;
-}
+
 
 /*my_experience*/
 
@@ -290,6 +288,7 @@ body {
 .my_position {
   display: block;
   font-size: 12px;
+  font-weight: 600;
   color: #727272;
 }
 
@@ -332,4 +331,13 @@ body {
 
 .my_education_row_left_title a:hover {
   color: #f8bb10;
+}
+
+ol, ul {
+   list-style: inside;
+   margin: 15px 0  15px 40px
+}
+
+li {
+    margin: 10px 0;
 }
