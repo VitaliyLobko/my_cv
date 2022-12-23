@@ -236,7 +236,7 @@ body {
 .my_row {
   display: flex;
   justify-content: space-between;
-  margin: 0px 4px;
+  margin: 35px 4px;
   border-left: 1px solid #ececec;
 }
 
@@ -341,3 +341,12 @@ ol, ul {
 li {
     margin: 10px 0;
 }
+
+.my_row_right a {
+  text-decoration: none;
+  color: #727272;
+  font-size: 12px;
+  display: block;
+  margin: 0 0 0 0;
+  text-transform: none;
+  }
