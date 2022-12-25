@@ -16,7 +16,7 @@ body {
 
 .header_left {
   width: 350px;
-  background-color: #fbfbfb;
+  background-color: #f5f5f5;
 }
 
 .my_foto {
@@ -38,7 +38,7 @@ body {
 .my_position {
   margin: 25px 0 0 0;
   color: lightgray;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .my_position_bold {
@@ -50,7 +50,7 @@ body {
 
 .my_last_exp {
   margin-top: 25px;
-  color: lightgray;
+  color: #f8bb10;
   text-align:end;
 }
 
@@ -115,7 +115,7 @@ body {
 
 .my_skills_left {
   width: 510px;
-  background-color: #f8f8f8;
+  background-color: #e8e8e8;
   text-align: right;
 }
 
@@ -141,7 +141,7 @@ body {
   width: 310px;
   height:350px;
   border-radius: 10px;
-  background-color: #f8f8f8;
+  background-color: #e8e8e8;
   padding: 0px 20px;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -215,7 +215,7 @@ body {
 
 .my_left {
   width: 510px;
-  background-color: #fbfbfb;
+  background-color: #f5f5f5;
   text-align: right;
 }
 
@@ -246,7 +246,6 @@ body {
 
 .my_row_left_title {
   padding-left: 25px;
-  margin: 2px 0 2px 4px;
   width: 250px;
   text-transform: uppercase;
 }
@@ -294,7 +293,7 @@ body {
 
 .my_education_left {
   width: 510px;
-  background-color: #f8f8f8;
+  background-color: #e8e8e8;
   text-align: right;fcfcfc
 }
 
@@ -315,7 +314,7 @@ body {
 
 .my_education_row_left_title {
   padding-left: 25px;
-  margin: 2px 0 2px 4px;
+  margin: 20px 0 2px 4px;
   text-transform: uppercase;
 }
 
