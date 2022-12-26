@@ -300,15 +300,15 @@ body {
 .my_education_right {
   background-color: #f5f5f5;
   width:100%;
-  
+
 }
 
 .my_education_row {
   margin: 0px 4px;
   border-left: 1px solid #ececec;
   width: 600px;
- 
-  
+
+
 }
 
 .my_education_row_left_title {
@@ -348,3 +348,8 @@ li {
   margin: 0 0 0 0;
   text-transform: none;
   }
+
+.bolded {
+ font-weight: 600;
+ color: #727272;
+}
