@@ -264,6 +264,9 @@ body {
 
 .my_row_right {
   line-height: 1.6;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
 }
 
 .my_row_right p {
